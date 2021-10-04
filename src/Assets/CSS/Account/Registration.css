@@ -1,0 +1,44 @@
+
+.container-bg-color{
+    /* background-color: #FAFAFC; */
+}
+
+.card-title1{
+    background-color: #F6F5FD;
+}
+
+.center-title{
+    color: #528BBE;
+}
+.drop-down{
+    color: gray !important;
+}
+.center-Details-form ::placeholder{
+    font-size: 15px;
+}
+
+.reg-sub-btn{
+    border: 2px solid black;
+    background-color: #1223BD26;
+padding: 5px 20px 5px 20px;
+border-radius: 15px;
+    cursor: pointer;
+border-color: white;
+    color: #00569F;
+    font-weight: bold;
+}
+.input-file input[type='file']{
+    display: none;
+}
+.input-file label{
+    cursor: pointer;
+    height: 5%;
+    width: 8%;
+    position: absolute;
+    border: 1px solid #bdc0c4;
+ border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

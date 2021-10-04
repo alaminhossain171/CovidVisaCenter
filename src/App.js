@@ -7,15 +7,18 @@ import {
   Route
 } from "react-router-dom";
 import Home from './Components/Account/Home';
+import Reg from './Components/Account/Reg';
+
 
 
 function App() {
   return (
     <Router>
        <div>
+  
 <Switch>
 <Route path='/' exact component={Home}  />
-
+<Route path='/reg' exact component={Reg}  />
 
 
 </Switch>
