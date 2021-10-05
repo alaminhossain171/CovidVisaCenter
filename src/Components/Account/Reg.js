@@ -9,8 +9,8 @@ const Reg = () => {
 
                 <form>
 
-                    <div class="card mt-2 card-title1">
-                        <div class="card-body center-title">
+                    <div className="card mt-2 card-title1">
+                        <div className="card-body center-title">
                             <h5 className='card-title mx-5'>Center Details</h5>
                         </div>
                     </div>
@@ -23,15 +23,15 @@ const Reg = () => {
                                         <div className='center-Details-form'>
 
 
-                                            <div class="mb-3 row">
-                                                <label for="inputPassword" class="col-sm-3 col-form-label text-muted">Name</label>
-                                                <div class="col-sm-9">
-                                                    <input required type="text" class="form-control" id="inputPassword" placeholder='Unity throught population center' />
+                                            <div className="mb-3 row">
+                                                <label for="inputPassword" className="col-sm-3 col-form-label text-muted">Name</label>
+                                                <div className="col-sm-9">
+                                                    <input required type="text" className="form-control" id="inputPassword" placeholder='Unity throught population center' />
                                                 </div>
                                             </div>
-                                            <div class="mb-3 row">
-                                                <label for="inputPassword" class="col-sm-3 col-form-label text-muted">Country</label>
-                                                <div class="col-sm-5">
+                                            <div className="mb-3 row">
+                                                <label for="inputPassword" className="col-sm-3 col-form-label text-muted">Country</label>
+                                                <div className="col-sm-5">
                                                     <Form.Select aria-label="Default select example" className='text-muted'>
 
                                                         <option value="1">Bangladesh</option>
@@ -40,17 +40,17 @@ const Reg = () => {
                                                     </Form.Select>
                                                 </div>
                                             </div>
-                                            <div class="mb-3 row">
-                                                <label for="inputPassword" class="col-sm-3 col-form-label text-muted">Zip code</label>
-                                                <div class="col-sm-4">
-                                                    <input type="text" class="form-control" id="inputPassword" placeholder='1230' />
+                                            <div className="mb-3 row">
+                                                <label for="inputPassword" className="col-sm-3 col-form-label text-muted">Zip code</label>
+                                                <div className="col-sm-4">
+                                                    <input type="text" className="form-control" id="inputPassword" placeholder='1230' />
                                                 </div>
                                             </div>
 
-                                            <div class="mb-3 row">
-                                                <label for="inputPassword" class="col-sm-3 col-form-label text-muted">HotLine</label>
-                                                <div class="col-sm-6">
-                                                    <input type="text" class="form-control" id="inputPassword" placeholder='00 91123 498 762' />
+                                            <div className="mb-3 row">
+                                                <label for="inputPassword" className="col-sm-3 col-form-label text-muted">HotLine</label>
+                                                <div className="col-sm-6">
+                                                    <input type="text" className="form-control" id="inputPassword" placeholder='00 91123 498 762' />
                                                 </div>
                                             </div>
 
@@ -61,9 +61,9 @@ const Reg = () => {
                                 <div className="col-md-6 d-flex  align-items-center">
                                     <div className='right-side-form'>
 
-                                        <div class="mb-3 row">
-                                            <label for="inputPassword" class="col-sm-3 col-form-label text-muted">City</label>
-                                            <div class="col-sm-8">
+                                        <div className="mb-3 row">
+                                            <label for="inputPassword" className="col-sm-3 col-form-label text-muted">City</label>
+                                            <div className="col-sm-8">
                                                 <Form.Select aria-label="Default select example" className='text-muted'>
 
                                                     <option value="0">Dhaka</option>
@@ -72,10 +72,10 @@ const Reg = () => {
                                                 </Form.Select>
                                             </div>
                                         </div>
-                                        <div class="mb-3 row">
-                                            <label for="inputPassword" class="col-sm-3 col-form-label text-muted">Area</label>
-                                            <div class="col-sm-6">
-                                                <input type="text" class="form-control" id="inputPassword" placeholder='Uttara' />
+                                        <div className="mb-3 row">
+                                            <label for="inputPassword" className="col-sm-3 col-form-label text-muted">Area</label>
+                                            <div className="col-sm-6">
+                                                <input type="text" className="form-control" id="inputPassword" placeholder='Uttara' />
                                             </div>
                                         </div>
 
@@ -103,8 +103,8 @@ const Reg = () => {
 
                     {/*............ person details start.................. */}
 
-                    <div class="card mt-5 card-title1">
-                        <div class="card-body center-title">
+                    <div className="card mt-5 card-title1">
+                        <div className="card-body center-title">
                             <h5 className='card-title mx-5'>Person details</h5>
                         </div>
                     </div>
@@ -119,29 +119,29 @@ const Reg = () => {
                                         <div className='center-Details-form'>
 
 
-                                            <div class="mb-3 row">
-                                                <label for="inputPassword" class="col-sm-3 col-form-label text-muted">Name</label>
-                                                <div class="col-sm-8">
-                                                    <input type="text" class="form-control" id="inputPassword" placeholder='HM Asaduzzaman Kamal' />
+                                            <div className="mb-3 row">
+                                                <label for="inputPassword" className="col-sm-3 col-form-label text-muted">Name</label>
+                                                <div className="col-sm-8">
+                                                    <input type="text" className="form-control" id="inputPassword" placeholder='HM Asaduzzaman Kamal' />
                                                 </div>
                                             </div>
-                                            <div class="mb-3 row">
-                                                <label for="inputPassword" class="col-sm-3 col-form-label text-muted">Email</label>
-                                                <div class="col-sm-9">
-                                                    <input type="mail" class="form-control" id="inputPassword" placeholder='asaduzzaman.uttps@gmail.com' />
+                                            <div className="mb-3 row">
+                                                <label for="inputPassword" className="col-sm-3 col-form-label text-muted">Email</label>
+                                                <div className="col-sm-9">
+                                                    <input type="mail" className="form-control" id="inputPassword" placeholder='asaduzzaman.uttps@gmail.com' />
                                                 </div>
                                             </div>
-                                            <div class="mb-3 row">
-                                                <label for="inputPassword" class="col-sm-3 col-form-label text-muted">NID</label>
-                                                <div class="col-sm-5">
-                                                    <input type="text" class="form-control" id="inputPassword" placeholder='123 234 234' />
+                                            <div className="mb-3 row">
+                                                <label for="inputPassword" className="col-sm-3 col-form-label text-muted">NID</label>
+                                                <div className="col-sm-5">
+                                                    <input type="text" className="form-control" id="inputPassword" placeholder='123 234 234' />
                                                 </div>
                                             </div>
 
-                                            <div class="mb-3 row">
-                                                <label for="inputPassword" class="col-sm-3 col-form-label text-muted">Mobile</label>
-                                                <div class="col-sm-6">
-                                                    <input type="text" class="form-control" id="inputPassword" placeholder='018 2700 7441' />
+                                            <div className="mb-3 row">
+                                                <label for="inputPassword" className="col-sm-3 col-form-label text-muted">Mobile</label>
+                                                <div className="col-sm-6">
+                                                    <input type="text" className="form-control" id="inputPassword" placeholder='018 2700 7441' />
                                                 </div>
                                             </div>
 
@@ -153,16 +153,16 @@ const Reg = () => {
                                     <div className='right-side-form'>
 
 
-                                        <div class="mb-3 row">
-                                            <label for="inputPassword" class="col-sm-5 col-form-label text-muted">Create password</label>
-                                            <div class="col-sm-7">
-                                                <input type="password" class="form-control" id="inputPassword" placeholder='p a s s w o r d' />
+                                        <div className="mb-3 row">
+                                            <label for="inputPassword" className="col-sm-5 col-form-label text-muted">Create password</label>
+                                            <div className="col-sm-7">
+                                                <input type="password" className="form-control" id="inputPassword" placeholder='p a s s w o r d' />
                                             </div>
                                         </div>
-                                        <div class="mb-3 row">
-                                            <label for="inputPassword" class="col-sm-5 col-form-label text-muted">Confirm password</label>
-                                            <div class="col-sm-7">
-                                                <input type="password" class="form-control" id="inputPassword" placeholder='p a s s w o r d' />
+                                        <div className="mb-3 row">
+                                            <label for="inputPassword" className="col-sm-5 col-form-label text-muted">Confirm password</label>
+                                            <div className="col-sm-7">
+                                                <input type="password" className="form-control" id="inputPassword" placeholder='p a s s w o r d' />
                                             </div>
                                         </div>
 
@@ -187,8 +187,8 @@ const Reg = () => {
 
                     {/* ...............Documents form details start ........................*/}
 
-                    <div class="card mt-5 card-title1">
-                        <div class="card-body center-title">
+                    <div className="card mt-5 card-title1">
+                        <div className="card-body center-title">
                             <h5 className='card-title mx-5'>Documents</h5>
                         </div>
                     </div>
@@ -203,16 +203,16 @@ const Reg = () => {
                                         <div className='center-Details-form'>
 
 
-                                            <div class="mb-3 row">
-                                                <label for="inputPassword" class="col-sm-4 col-form-label text-muted">Trade License</label>
-                                                <div class="col-sm-8">
-                                                    <input type="text" class="form-control" id="inputPassword" placeholder='987 654 567' />
+                                            <div className="mb-3 row">
+                                                <label for="inputPassword" className="col-sm-4 col-form-label text-muted">Trade License</label>
+                                                <div className="col-sm-8">
+                                                    <input type="text" className="form-control" id="inputPassword" placeholder='987 654 567' />
                                                 </div>
                                             </div>
-                                            <div class="mb-3 row">
-                                                <label for="inputPassword" class="col-sm-4 col-form-label text-muted">Document 1</label>
-                                                <div class="col-sm-8">
-                                                    <input class="form-control" type="file" id="formFile"></input>
+                                            <div className="mb-3 row">
+                                                <label for="inputPassword" className="col-sm-4 col-form-label text-muted">Document 1</label>
+                                                <div className="col-sm-8">
+                                                    <input className="form-control" type="file" id="formFile"></input>
                                                 </div>
                                             </div>
 
@@ -227,16 +227,16 @@ const Reg = () => {
                                     <div className='right-side-form'>
 
 
-                                        <div class="mb-3 row">
-                                            <label for="inputPassword" class="col-sm-3 col-form-label text-muted">Document 2</label>
-                                            <div class="col-sm-8">
-                                                <input class="form-control" type="file" id="formFile"></input>
+                                        <div className="mb-3 row">
+                                            <label for="inputPassword" className="col-sm-3 col-form-label text-muted">Document 2</label>
+                                            <div className="col-sm-8">
+                                                <input className="form-control" type="file" id="formFile"></input>
                                             </div>
                                         </div>
-                                        <div class="mb-3 row">
-                                            <label for="inputPassword" class="col-sm-3 col-form-label text-muted">Document 3</label>
-                                            <div class="col-sm-8">
-                                                <input class="form-control" type="file" id="formFile"></input>
+                                        <div className="mb-3 row">
+                                            <label for="inputPassword" className="col-sm-3 col-form-label text-muted">Document 3</label>
+                                            <div className="col-sm-8">
+                                                <input className="form-control" type="file" id="formFile"></input>
 
                                             </div>
                                         </div>
