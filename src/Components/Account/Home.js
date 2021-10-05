@@ -14,14 +14,14 @@ const Home = () => {
 
         <div className="text-container text-center">
           <div className="col">
-            <div className="row card">
-              <h1 className="card-title">Trusted person log in</h1>
+            <div className="row card-div">
+              <h1 className="home-card">Trusted person log in</h1>
             </div>
-            <div className="row card">
-              <h1 className="card-title">Center Administrator</h1>
+            <div className="row card-div">
+              <h1 className="home-card">Center Administrator</h1>
             </div>
-            <div className="row card">
-              <h1 className="card-title">Center Registration</h1>
+            <div className="row card-div">
+              <h1 className="home-card">Center Registration</h1>
             </div>
           </div>
         </div>
