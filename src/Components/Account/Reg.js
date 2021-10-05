@@ -1,8 +1,14 @@
-import React from 'react';
+import React,{useState} from 'react';
 import '../../Assets/CSS/Account/Registration.css'
 import { Form} from 'react-bootstrap';
 import OtpCard from '../Reusable/OtpCard';
 const Reg = () => {
+    const [show,setshow]=useState(false);
+    function handleClickOtp(e){
+        e.preventDefault();
+        setshow(true);
+        console.log(show);
+    }
     return (
         <>
             <div className="container container-bg-color mb-3">
@@ -26,7 +32,7 @@ const Reg = () => {
                                             <div className="mb-3 row">
                                                 <label for="inputPassword" className="col-sm-3 col-form-label text-muted">Name</label>
                                                 <div className="col-sm-9">
-                                                    <input required type="text" className="form-control" id="inputPassword" placeholder='Unity throught population center' />
+                                                    <input type="text" className="form-control" id="inputPassword" placeholder='Unity throught population center' />
                                                 </div>
                                             </div>
                                             <div className="mb-3 row">
@@ -261,33 +267,28 @@ const Reg = () => {
 
 
 <div className="text-center mt-5">
-    <button className='reg-sub-btn'>Submit</button>
+    <button onClick={handleClickOtp} className='reg-sub-btn'>Submit</button>
 </div>
 
                 </form>
-
-<div className="otp-reg my-5">
+{/* Otp design div */}
+{show?<div className="otp-reg my-5">
     <p className="text-muted text-center">
         An Otp is just sent to your mobile 01827 007 441. Enter the OTP here.
     </p>
 <div className="otp-card text-center d-flex justify-content-center">
 
-<OtpCard />
-
-
+<OtpCard /> 
+{/* here otp component call */}
 
 </div>
-
-
-
-
-
 <div className="text-center mt-5">
 <button className='apply-reg-btn'>Apply for center registration</button> 
 </div>
 
 
-</div>
+</div>:''}
+
 
 
 
